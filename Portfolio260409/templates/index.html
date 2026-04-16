@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Since 26.04.09 포트폴리오</title>
+    <!-- favicon -->
+    <link rel="stylesheet" href="/static/css/index.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/static/app/index.js"></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1 >나만의 IT 기술 포트폴리오</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li id="conv" im="m1.jpg">🎶이미지 맞추기🎶</li>
+            <li id="travel" im="m2.jpg">💕주변 관광지💕</li>
+            <li id="sample" im="m3.jpg">💕샘플 2💕</li>
+        </ul>
+    </nav>
+    <div id="main_img">
+    </div>
+    <div id="content_container"
+    style="display:none;padding:1rem;position:fixed;left:0;top:0;
+    width:100vw;height:100vh;background:rgb(173, 255, 47,0.5)">
+    <span id="close" style="font-size:2vw;color:red;position:fixed;top:2vh;right:1vw">🌹</span>
+
+    <div class="content_ui" style="width:97vw;background:white">
+        <fieldset style="padding:1rem;margin:1rem">
+            <legend>다중분류 이미지 맞추기(비행기, 자동차, 새, 고양이, 사슴, 강아지, 개구리, 말, 배 , 트럭)</legend>
+            <label>업로드 이미지:<input id="file_input" type="file"></label>
+        </fieldset>
+        <div class="train_img">
+            <img src="/static/images/conv_img/conv_graph.png"/>
+            <img src="/static/images/conv_img/conv_heat.png"/>
+            <img src="/static/images/conv_img/conv_puzzle.png"/>
+            <img src="/static/images/conv_img/conv_f1.png"/>
+        </div>
+    </div>
+    <hr style="margin:1rem">
+    <button id="send_service" info="" style="width:97vw;height:2rem">서버로 전송하기</button>
+    <div id="result" style="overflow:auto">
+
+    </div>
+</div>
+</body>
+</html>
