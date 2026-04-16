@@ -1,0 +1,29 @@
+*{padding:0;margin:0}
+/*모바일*/
+@media(max-width:600px){
+body{font-family: 'Gowun Dodum', sans-serif;font-size:2.3vw}
+ul li{float:left;line-height:10vh;width:calc(100vw / 3.5);text-align:center;
+    list-style-type:none;color:white}
+}
+/*컴퓨터용*/
+@media(min-width:601px){
+body{font-family: 'Gowun Dodum', sans-serif;font-size:1.5vw}
+ul li{float:left;line-height:10vh;width:calc(100vw / 3.13);text-align:center;
+    list-style-type:none;color:white}
+}
+#header{height:20vh;background:DarkTurquoise}
+#header h1{height:20vh;line-height:20vh;text-align:center;color:black;}
+ul{background:rgb(228, 145, 231);height:10vh}
+
+hr{border-color:rgb(245, 94, 7)}
+nav{margin-bottom:0.5rem;}
+ul li:hover{
+    position:relative;
+    left:2px;
+    top:2px;
+    cursor:pointer
+}
+#close{cursor:pointer}
+#main_img{height:70vh;text-align:center;}
+.train_img img{width:23vw;height:20vh;
+            border:1px solid black;border-radius:0.5rem;}
