@@ -12,20 +12,20 @@
 ### 디렉터리 구조 : 
 <pre>
         
-        Porfolio260409(root)
+     Porfolio260409(root)
         └ai_model
-  └ai_interface.py(모델인터페이스)
-    └conv_ai.py(모델 로딩 및 분석기)
-    └static
-      └app
-         └index.js(클라이언트 스크립트파일)
-      └css
-         └index.css(클라이언트 모양설정)
-      └images(메인페이지 이미지 파일)
-      └temp(예측 업로드 파일)
-     └templates
-     └index.html
-     └web_service.py(web route)
+         └ai_interface.py(모델인터페이스)
+         └conv_ai.py(모델 로딩 및 분석기)
+        └static
+         └app
+            └index.js(클라이언트 스크립트파일)
+        └css
+           └index.css(클라이언트 모양설정)
+       └images(메인페이지 이미지 파일)
+       └temp(예측 업로드 파일)
+      └templates
+        └index.html(메인페이지)
+      └web_service.py(web route)
 </pre>
 
 
